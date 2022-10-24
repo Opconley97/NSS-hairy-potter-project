@@ -1,4 +1,4 @@
-const firePottery = (potteryObj, tempNumb) => {
+export const firePottery = (potteryObj, tempNumb) => {
     if (tempNumb > 2200) {
         potteryObj.cracked = true
     } else {
@@ -6,5 +6,3 @@ const firePottery = (potteryObj, tempNumb) => {
     }
     return potteryObj
 }
-
-module.exports = {firePottery};

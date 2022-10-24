@@ -1,6 +1,6 @@
 let potteryKeyValue = 1;
 
-const makePottery = (shape, weight, height) => {
+export const makePottery = (shape, weight, height) => {
     let pottery = {
         shape: shape,
         weight: weight,
@@ -9,5 +9,3 @@ const makePottery = (shape, weight, height) => {
     }
     return pottery
 }
-
-module.exports = { makePottery };

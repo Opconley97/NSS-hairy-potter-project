@@ -1,7 +1,8 @@
 // Imports go first
-const { makePottery } = require("./potteryWheel.js")
-const { firePottery } = require("./kiln.js")
-
+import { toSellOrNotToSell } from "./potteryCatalog.js"
+import { makePottery } from "./potteryWheel.js"
+import { firePottery } from "./kiln.js"
+import { usePottery } from "./potteryCatalog.js"
 
 // Make 5 pieces of pottery at the wheel
 let mug = makePottery("Cylinder", 1, 6)
@@ -15,6 +16,12 @@ firePottery(bowl, 2200)
 firePottery(cup, 150000)
 firePottery(pot, 1)
 firePottery(vase, 1895)
+
+toSellOrNotToSell(mug)
+toSellOrNotToSell(bowl)
+toSellOrNotToSell(cup)
+toSellOrNotToSell(pot)
+toSellOrNotToSell(vase)
 
 console.log(mug)
 console.log(bowl)
