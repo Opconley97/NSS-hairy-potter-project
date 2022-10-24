@@ -12,7 +12,7 @@ import { potteryList } from "./potteryList.js"
 let mug = makePottery("Mug", 1, 6)
 let bowl = makePottery("Bowl",2.5,3)
 let cup = makePottery("Cup", 0.8, 5)
-let pot = makePottery("Pot",5,8)
+let pot = makePottery("Pot",11,8)
 let vase = makePottery("Vase",3.5,18)
 
 // Fire each piece of pottery in the kiln
